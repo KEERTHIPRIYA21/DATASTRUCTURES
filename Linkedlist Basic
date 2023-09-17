@@ -5,8 +5,6 @@ class LinkedList:
 A=LinkedList(10)
 B=LinkedList(20)
 C=LinkedList(30)
-print(A.data)
-print(B.next)
 A.next=B
 B.next=C
 print(A.data )
