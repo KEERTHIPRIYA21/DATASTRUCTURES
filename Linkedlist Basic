@@ -1,0 +1,14 @@
+class LinkedList:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+A=LinkedList(10)
+B=LinkedList(20)
+C=LinkedList(30)
+print(A.data)
+print(B.next)
+A.next=B
+B.next=C
+print(A.data )
+print(A.next.data )
+print(A.next.next.data )
